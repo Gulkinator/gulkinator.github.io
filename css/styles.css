@@ -2,13 +2,6 @@
 Global
 ***************/
 
-.clearfix:after {
-
-	clear:both;
-	content: " ";
-	display: block;
-}
-
 a {
 
 	text-decoration: none;
@@ -29,15 +22,17 @@ Header
 header {
 	
 	display:block;
-	max-width: 55rem;	
 	padding-top: 1.7rem;
 	text-align: left;
 	background-color: white;
-	padding-bottom: 0rem;
-	padding-top: 1rem;
   
 }
 
+.tagline {
+
+	font-size:1.5rem;
+
+}
 
 /***********
 Navigation
@@ -45,8 +40,7 @@ Navigation
 
 nav {
 
-	display: block;
-	max-width:55rem;
+
 	border-top-width: .124rem;
 	border-top-style: solid;
 	border-color:#ededed;
@@ -89,8 +83,6 @@ Body
 body {
 
 	background-color: #e6e6e6;
-	margin:auto;
-	font-size: 1rem;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	line-height: 170%;
 	vertical-align: baseline;
@@ -101,43 +93,17 @@ body {
 div.body-content {
 
 	display: block;
-	max-width:  55rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-left: 1.7rem;
 	padding-right: 1.7rem;
-	margin-right:auto;
-	margin-left:auto;
+	margin-right:1.7rem;
+	margin-left:1.7rem;
 	margin-top:1.7rem;
 	margin-bottom: 1.7rem;
 	background-color: white;
 	text-align: left;
 	
-}
-
-@media (min-width: 520px) {
-
-	.body-content {
-	max-width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	
-	}
-}
-
-@media (min-width: 768px) {
-
-	.body-content {
-	
-	}
-}
-
-@media (min-width: 1200px) {
-
-	.body-content {
-	max-width: 1170px;
-	
-	}
 }
 
 /**************
@@ -191,6 +157,16 @@ footer {
 	padding-right:auto;
 	
 }
+i {
+	
+
+	background-color:#636363;
+	padding:4px;
+
+
+}
+
+
 
 .footer-img {
 
@@ -201,31 +177,48 @@ footer {
 	
 }
 
-#github {
+.github {
 	
+	color:white;
 	background-color:#636363;
 	vertical-align:center;
 
 }
 
-#linkedin {
 
+.github ::before{
+
+	font-family: fontawesome;
+	
+ }
+
+
+
+.linkedin {
+
+	color:white;
 	background-color:#636363;
-	width:32px;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 6.5px;
-	padding-bottom: 6.5px;
+	vertical-align:center;
 
 }
 
-#twitter{
+.linkedin ::before{
 
-	width:32px;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	font-family: fontawesome;
+	
+ }
+
+.twitter {
+
+	color:white;
 	background-color:#636363;
+	vertical-align:center;
 
 }
+
+.twitter ::before{
+
+	font-family: fontawesome;
+	content:"\f09b";
+	
+ }
