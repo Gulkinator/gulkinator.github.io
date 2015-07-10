@@ -20,15 +20,15 @@
 <header class="navbar">
 	<div class="container">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<button type="button" class="navbar-toggle collapsed nav-link" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 				<span class="sr-only">Toggle navigation</span>
 				<i class="fa fa-bars fa-2x"></i>&nbsp;
 			</button>
-			<span class="navbar-brand"><a href="index.html">Lauren Gulkus</a></span>
+			<span class="navbar-brand"><a class="nav-link" href="index.html">Lauren Gulkus</a></span>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">
-				<li class="navbar-text navbar-right"><a href="mailto:lauren.gulkus@gmail.com"><i class="fa fa-envelope-o fa"></i>&nbsp;&nbsp;lauren.gulkus@gmail.com</a></li>
-				<li class="navbar-text navbar-right"><a>&nbsp;<i class="fa fa-mobile fa"></i>&nbsp;&nbsp;+1.504.814.4482</a></li>
+			<li class="navbar-text navbar-right"><a class="nav-link" >&nbsp;<i class="fa fa-mobile fa"></i>&nbsp;&nbsp;+1.504.---.----</a></li>
+			<li class="navbar-text navbar-right"><a class="nav-link" href="mailto:------@------.com"><i class="fa fa-envelope-o fa"></i>&nbsp;&nbsp;-------@------.com</a></li>
 		</div>
 	</div>
 </header>
@@ -37,83 +37,111 @@
 <!---End Header--->
 	
 <!---Start Main---->
-<section class="jumbotron">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<h3 class="section-title">About</h3></div></div><div class="row"><div class="col-sm-12 col-md-9 col-lg-9">
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				<a class="about-link"  href="/img/resume.pdf">&nbsp;&nbsp;View/Print My Resume</a></p>
-			</div>
-		</div>
-	</div>
-</section>	
-<section class="products">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-lg-12">
-				 <h3 class="section-title">Sample Work</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-lg-4">
-				<div class="product">
-					<a href="https://github.com/Gulkinator/idea-feast"><i class="fa fa-lightbulb-o"></i><h4>ideaFeast<br/><br/></h4></a>
+<main>
+	<section class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+					<h3 class="portfolio-title">About</h3>
 				</div>
 			</div>
-			<div class="col-sm-6 col-lg-4">
-				<div class="product">
-					<a href="https://github.com/Gulkinator/making-groceries"><i class="fa fa-shopping-cart"></i><h4>Making <br/>Groceries</h4></a>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-4">
-				<div class="product">
-					<a href="https://github.com/Gulkinator/invox.git"><i class="fa fa-file-o"></i><h4>Invox<br/><br/></h4></a>
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-md-offset-2 portfolio">
+				<p>Hopefully overtime I can jazz it up. So keep checking to see what evolves!This site evolved from a WordPress site I created during a workshop put on by <span><a class="about-link"  href="http://getonlinenola.com/">Get Online NOLA</a></span> and <span><a class="about-link"  href="http://www.neworleanswit.org/">NOLA WIT</a></span>.  I have since migrated from a WordPress to using my own source code that uses simple HTML and CSS.</br></br>
+				The portfolio below contains some hobby projects that I have created while learning Ruby on Rails as well as some mock-ups of B2B and enterprise tools similar to those I have designed in my professional work.</br></br>
+				I am interested in work with individuals and teams on interest projects so please feel free to contact me.</br></br>
+				<a class="about-link"  href="img/resume-gulkus.pdf">&nbsp;&nbsp;View/Print My Resume</a></p>
 				</div>
 			</div>
 		</div>
-	<div class="row">
-		<div class="col-sm-6 col-lg-4">
-			<div class="product">
-				<a href="#">
-					<i class="fa fa-trophy"></i>
-					<h4>Branding <br/>Tool</h4>
-				</a>
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-md-offset-2 portfolio">
+				<div class="row">
+					<h3 class="about-title">C2B</h3>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="https://github.com/Gulkinator/idea-feast.git" target="_blank">
+								<img class="img-responsive portfolio-img"  src="img/ideaFeast.png" alt="ideaFeast screen capture">
+								<div class="caption">
+										<h3>ideaFeast</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="https://github.com/Gulkinator/making-groceries.git" target="_blank"> 
+								<img class="img-responsive portfolio-img"  src="img/Making-Groceries.png" alt="Making Groceries screen capture">
+								<div class="caption">
+										<h3>Making Groceries</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<a href="https://github.com/Gulkinator/invox.git" target="_blank"> 
+								<img class="img-responsive portfolio-img"  src="img/Invox.jpg" alt="Invox screen capture">
+								<div class="caption">
+										<h3>Invox</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<h3 class="about-title">B2B</h3>
+					<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="https://github.com/Gulkinator/branding-tool.git" target="_blank"> 
+									<img class="img-responsive portfolio-img"  src="img/Branding-Tool.png" alt="Branding Tool screen capture">
+									<div class="caption">
+										<h3>Branding Tool</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="img/requests-portal.png" target="_blank"> 
+									<img class="img-responsive portfolio-img"  src="img/Requests-Portal.png" alt="Requests Portal screen capture">
+									<div class="caption">
+										<h3>Requests Portal</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="img/branding-tool.png" target="_blank"> 
+									<img class="img-responsive portfolio-img"  src="img/Policy-Portal.jpg" alt="Policy Portal screen capture">
+									<div class="caption">
+										<h3>Policy Portal</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-lg-4"><div class="product">
-			<a href="/img/requests-portal.png">
-				<i class="fa fa-users"></i>
-				<h4>Requests <br/>Portal</h4>
-			</a>
-		</div></div>
-		<div class="col-sm-6 col-lg-4"><div class="product">
-			<a href="#">
-				<i class="fa fa-university"></i>
-				<h4>Policy<br/>Portal</h4>
-			</a>
-		</div>
-	</div>
-	</div>
-</section>	
+	</section>
+</main>	
 	
 <!---End Main---->
 
 <!---Start Footer--->
-					
+			
 <footer>
-	<div class="container">
+<section class="container">	
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<h3 class="section-title">Around the web
-				<span><a href="https://github.com/gulkinator"><i class="fa fa-github fa"></i></a>  
-				<a href="https://www.linkedin.com/in/gulkus">&nbsp;<i class="fa fa-linkedin fa"></i></a>  
-				<a  href="https://twitter.com/Gulkinator">&nbsp;<i class="fa fa-twitter fa"></i></a>
-				</span><h3>
+				<h3 class="footer-link">Find me around the web &nbsp;&nbsp;<span><a class="footer-link" href="https://github.com/gulkinator"><i class="fa fa-github fa"></i></a>  
+				<a class="footer-link" href="https://www.linkedin.com/in/gulkus">&nbsp;<i class="fa fa-linkedin fa"></i></a>  
+				<a  class="footer-link" href="https://twitter.com/Gulkinator">&nbsp;<i class="fa fa-twitter fa"></i></a></span></h3>
 			</div>
 		</div>
-	</div>
-</footer>
+</section>
+		</footer>
+
 <!---End Footer--->
 
 <!---Start Scripts--->
