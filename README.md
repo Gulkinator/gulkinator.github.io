@@ -2,8 +2,11 @@
 ##Contributors
 Lauren Gulkus
 Email: my first name [dot] my last name [at] gmail [dot] com
+
 Github: www.github.com/gulkinator
+
 Twitter: @gulkinator
+
 ##Description
 A simple static single page site with the purpose of displaying the portfolio items of Lauren Gulkus
 ##Version
