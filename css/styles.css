@@ -1,3 +1,22 @@
+/* 
+TITLE: 
+	Portfolio Site for Lauren Gulkus Stylesheet
+
+DESCRIPTION: 
+	Stylesheet for my portfolio site.
+
+AUTHOR:
+	Lauren Gulkus
+		Github: www.github.com/gulkinator
+		Twitter: @gulkinator
+		
+COLORS USED:
+	#FBBB29 orange
+	#DFE8EE light blue
+	#002F45 dark blue
+*/
+
+
 body {
 
 }
@@ -20,6 +39,14 @@ a:hover {
 
 .navbar-brand {
 	color:#DFE8EE;
+}
+
+.fa-bars {
+    color:#FBBB29;
+}
+
+#navbar {
+	list-style: none;
 }
 
 a.nav-link{
