@@ -16,11 +16,6 @@ COLORS USED:
 	#002F45 dark blue
 */
 
-
-body {
-
-}
-
 a {
 	color:#002f45;
 	background:transparent;
@@ -32,13 +27,21 @@ a:hover {
 	text-decoration:none;
 }
 
+footer {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-bottom:10px;
+	background-color:#002f45;
+	color:#DFE8EE;
+}
+
+li {
+	list-style: none;
+}
+
 .navbar {
 	background-color: #002f45;
 	border-radius: 0px;
-}
-
-.navbar-brand {
-	color:#DFE8EE;
 }
 
 .fa-bars {
@@ -48,6 +51,7 @@ a:hover {
 #navbar {
 	list-style: none;
 }
+
 .hidden {
 	visibility:hidden;
 }
@@ -86,6 +90,7 @@ a.resume-link:hover {
 .thumbnail {
 	background-color:#DFE8EE;
 	border-color: transparent;
+	border-radius: 0px;
 	box-shadow:none;
 }
 
@@ -97,18 +102,6 @@ a.resume-link:hover {
 img.portfolio-img:hover {
 	background-color:transparent;
 	opacity:0.9;
-}
-
-footer {
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-bottom:10px;
-	background-color:#002f45;
-	color:#DFE8EE;
-}
-
-li {
-	list-style: none;
 }
 
 a.contact-link{
