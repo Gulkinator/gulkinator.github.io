@@ -103,11 +103,25 @@ footer {
 	color:#DFE8EE;
 }
 
-a.footer-link {
+li {
+	list-style: none;
+}
+
+a.contact-link{
 	color:#DFE8EE;
 }
 
-a.footer-link:hover {
+a.contact-link:hover {
+	color:#FBBB29;
+	background:transparent;
+	text-decoration:none;
+}
+
+a.social-media-link {
+	color:#DFE8EE;
+}
+
+a.social-media-link:hover {
 	color:#FBBB29;
 	background:transparent;
 	text-decoration:none;
