@@ -48,6 +48,10 @@ a:hover {
 #navbar {
 	list-style: none;
 }
+.hidden {
+	visibility:hidden;
+}
+
 
 a.nav-link{
 	color:#DFE8EE;
