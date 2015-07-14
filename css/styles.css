@@ -38,7 +38,7 @@ nav {
 	color:#DFE8EE;
 }
 
-.navbar-text:hover {
+.nav > li > a:hover {
 	color:#FBBB29;
 	background:transparent;
 	text-decoration:none;
