@@ -1,19 +1,7 @@
 /* 
-TITLE: 
-	Portfolio Site for Lauren Gulkus Stylesheet
-
-DESCRIPTION: 
-	Stylesheet for my portfolio site.
-
-AUTHOR:
-	Lauren Gulkus
-		Github: www.github.com/gulkinator
-		Twitter: @gulkinator
-		
-COLORS USED:
-	#FBBB29 orange
-	#DFE8EE light blue
-	#002F45 dark blue
+*TITLE: Portfolio Site for Lauren Gulkus Stylesheet
+*AUTHOR: Lauren Gulkus (Github: www.github.com/gulkinator, Twitter: @gulkinator)
+*COLORS USED: #FBBB29 (orange), #DFE8EE (light blue), #002F45 (dark blue)
 */
 
 a {
@@ -27,41 +15,30 @@ a:hover {
 	text-decoration:none;
 }
 
-footer {
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-bottom:10px;
-	background-color:#002f45;
-	color:#DFE8EE;
-}
-
 li {
 	list-style: none;
 }
 
-.navbar {
+footer,
+nav {
 	background-color: #002f45;
 	border-radius: 0px;
+	color:#DFE8EE;
 }
 
 .fa-bars {
     color:#FBBB29;
 }
 
-#navbar {
-	list-style: none;
-}
-
 .hidden {
 	visibility:hidden;
 }
 
-
-a.nav-link{
+.navbar-text{
 	color:#DFE8EE;
 }
 
-a.nav-link:hover {
+.navbar-text:hover {
 	color:#FBBB29;
 	background:transparent;
 	text-decoration:none;
@@ -73,14 +50,14 @@ a.nav-link:hover {
 	background-color:#FBBB29;
 	color:#002f45;
 	border-radius:10rem;
-	margin-top:-3rem;
+	margin-top:-1.5rem;
 	margin-bottom:2.5rem;
 	margin-right:auto;
 	margin-left:auto;
 }
 
 a.resume-link {
-	color:#FBBB29;	
+	color:#FBBB29;
 }
 
 a.resume-link:hover {
