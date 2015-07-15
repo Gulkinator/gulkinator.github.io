@@ -4,9 +4,27 @@
 *COLORS USED: #FBBB29 (orange), #DFE8EE (light blue), #002F45 (dark blue)
 */
 
+body{
+	background-color:#002f45;
+	color:#DFE8EE;
+}
+
+h1 {
+	font-size:25px
+}
+
+h2 {
+	font-size:20px
+}
+
+h3, caption{
+	font-size:15px
+}
+
 a {
-	color:#002f45;
+
 	background:transparent;
+	color:#DFE8EE;
 }
 
 a:hover {
@@ -19,11 +37,13 @@ li {
 	list-style: none;
 }
 
-footer,
 nav {
-	background-color: #002f45;
 	border-radius: 0px;
-	color:#DFE8EE;
+}
+
+main{
+	background-color: #FFF;
+	color: #002F45;
 }
 
 .fa-bars {
@@ -34,16 +54,9 @@ nav {
 	visibility:hidden;
 }
 
-.navbar-text{
-	color:#DFE8EE;
-}
-
 .nav > li > a:hover {
-	color:#FBBB29;
 	background:transparent;
-	text-decoration:none;
 }
-
 
 .portfolio-title{
 	text-align:center;
@@ -71,32 +84,7 @@ a.resume-link:hover {
 	box-shadow:none;
 }
 
-.portfolio-img{
-	opacity:0.6;
-	background-color:transparent;
-}
-
 img.portfolio-img:hover {
 	background-color:transparent;
-	opacity:0.9;
-}
-
-a.contact-link{
-	color:#DFE8EE;
-}
-
-a.contact-link:hover {
-	color:#FBBB29;
-	background:transparent;
-	text-decoration:none;
-}
-
-a.social-media-link {
-	color:#DFE8EE;
-}
-
-a.social-media-link:hover {
-	color:#FBBB29;
-	background:transparent;
-	text-decoration:none;
+	opacity:0.6;
 }
