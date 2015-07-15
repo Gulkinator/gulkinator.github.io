@@ -41,10 +41,19 @@ nav {
 	border-radius: 0px;
 }
 
-main{
+main {
 	background-color: #FFF;
 	color: #002F45;
 }
+
+.project {
+	color: #002F45;
+}
+
+.featurette {
+	background-color: #DFE8EE;
+}
+
 
 .fa-bars {
     color:#FBBB29;
