@@ -1,145 +1,165 @@
 <!DOCTYPE html>
 <!--
-
 Title:
 Portfolio Site for Lauren Gulkus v1.0 (www.github.com/gulkinator/portfolio-site)
 
 Contributors:
-Lauren Gulkus
-Email: my first name [dot] my last name [at] gmail [dot] com
-Github: www.github.com/gulkinator
-Twitter: @gulkinator
+	Lauren Gulkus
+	Email: my first name [dot] my last name [at] gmail [dot] com
+	Github: www.github.com/gulkinator
+	Twitter: @gulkinator
 
 Description:
-A simple static single page site with the purpose of displaying the portfolio items of Lauren Gulkus
+	A simple static single page site with the purpose of displaying the portfolio items of Lauren Gulkus
 
 Record of change:
-See repository Commits (url: https://github.com/Gulkinator/gulkinator.github.io/commits/master)
+	See repository Commits (url: https://github.com/Gulkinator/gulkinator.github.io/commits/master)
 
 To-Do:
-See Issues (url: https://github.com/Gulkinator/gulkinator.github.io/issues)
+	See Issues (url: https://github.com/Gulkinator/gulkinator.github.io/issues)
 -->
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Lauren Gulkus</title>
-	<meta content="the web development projects portfolio of Lauren Gulkus" name="description" />
-	<meta content="Lauren Gulkus" name="author" />
-	<link rel="stylesheet" href="css/bootstrap.css"/>
-	<link rel="stylesheet" href="css/bootstrap-theme.css"/>
-	<link rel="stylesheet" href="css/styles.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lauren Gulkus</title>
+<meta content="Lauren Gulkus" name="author"/>
+<meta content="The web development projects portfolio of Lauren Gulkus" name="description" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Start Scripts -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- End Scripts -->
+<!-- Start Styles -->
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/bootstrap-theme.css"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- End Styles -->
+<!-- Start Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+<!-- End Fonts -->
 </head>
 <body>
-	<header>
-		<nav>
-			<div id="header" class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed nav-link" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<i class="fa fa-bars fa-2x"></i>&nbsp;
-					</button>
-					<h1 class="navbar-brand">Lauren Gulkus</h1>
-				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a class="hidden" href="#projects">Projects</a></li>
-					<li><a class="navbar-text" href="#about">About</a></li>
-					<li><a class="navbar-text" href="https://gulkus.wufoo.com/forms/zohxfh017810c5/" target="_blank">Contact</a></li>
-					<li><a class="hidden" href="#contact">Social Media</a></li>
-				</ul>
+	<nav class="navbar">
+		<div id="header" class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed nav-link" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<
+					<i class="fa fa-bars fa-2x"></i>&nbsp;
+				</button>
+				<h1 class="navbar-brand">Lauren Gulkus</h1>
 			</div>
-		</nav>
-	</header>
-	<main>
-		<div id="projects" class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-					<h1 class="portfolio-title">Projects</h1>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="hidden" href="#projects">Projects</a></li>
+				<li><a class="hidden" href="#consumer-products-projects">Consumer Product Projects <span class="sr-only">Consumer Product Projects</span></a></li>
+				<li><a class="hidden" href="#enterprise-products-projects">Enterprise Product Projects <span class="sr-only">Enterprise Product Projects</span></a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="https://gulkus.wufoo.com/forms/zohxfh017810c5/" target="_blank">Contact</a></li>
+				<li><a class="hidden" href="#social-media">Social Media<span class="sr-only">Social Media Links</span></a></li>
+			</ul>
+		</div>
+	</nav>
+<!-- Start of Header -->
+<header class="intro wrapper">
+	<div class="inner">
+		<h1>Portfolio</h1>
+	</div>
+</header>
+<!-- End of Header --> 
+
+<!-- Start of Main Content -->
+<main class="content wrapper">
+	<div class="inner">
+		<section class="row">
+			<h2 id="consumer-projects">Consumer Product Projects</h2>
+			<div class="col-md-6 col-lg-6">
+    			<div class="thumbnail">
+					<a class="project" href="https://github.com/Gulkinator/idea-feast.git" target="_blank">
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634172/da2f797e-27b3-11e5-856c-5b16e2c0f462.png" alt="ideaFeast screen capture">
+						<h3 class="caption">ideaFeast</h3>
+					</a>
 				</div>
+			</div>
+        	<div class="col-md-6 col-lg-6">
+	        	<div class="thumbnail">
+					<a class="project" href="https://github.com/Gulkinator/making-groceries.git" target="_blank"> 
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634174/da3709be-27b3-11e5-814f-f31c09f90733.png" alt="Making Groceries screen capture">
+						<h3 class="caption">Making Groceries</h3>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="row">
+			<h2 id="enterprise-projects">Enterprise Product Projects</h2>
+			<div class="col-md-6 col-lg-6">
+				<div class="thumbnail">
+					<a class="project" href="https://github.com/Gulkinator/branding-tool.git" target="_blank"> 
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634177/da3b27b0-27b3-11e5-8ea9-ae21c34d4e3d.png" alt="Branding Tool screen capture">
+						<h3 class="caption">Branding Tool</h3>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6">
+				<div class="thumbnail">
+					<a class="project" href="img/requests-portal.png" target="_blank"> 
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634175/da38335c-27b3-11e5-99d3-fd09c3949327.png" alt="Requests Portal screen capture">
+						<h3 class="caption">Requests Portal</h3>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="row">
+			<h2 id="coming-soon">Comming Soon</h2>
+			<div class="col-md-6 col-lg-6">
+				<div class="thumbnail">
+					<a class="project" href="https://github.com/Gulkinator/invox.git" target="_blank"> 
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8640647/2ebf1bc2-28c5-11e5-942e-c788c3a5261d.png" alt="Invox screen capture">
+						<h3 class="caption">Invox</h3>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-6">
+				<div class="thumbnail">
+					<a class="project" href="https://cloud.githubusercontent.com/assets/10729186/8634173/da322840-27b3-11e5-8481-835c8a32bb2e.jpg" target="_blank"> 
+						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8640647/2ebf1bc2-28c5-11e5-942e-c788c3a5261d.png" alt="Policy Portal screen capture">
+						<h3 class="caption">Policy Portal</h3>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="row">
+			<h2 id="about">About</h2>
+			<img class="pull-left" src="https://cloud.githubusercontent.com/assets/10729186/8767074/7a065096-2e15-11e5-9d32-05f05df25af3.jpg" alt="Lauren Gulkus">
+			<p class="lead">
+				Lauren Gulkus lives and works in New Orleans, where she has been learning fullstack, web development over the past few years. This site highlights some projects she has done during that time.
 				<br>
-				<h2 class="about-title">Consumer Products</h2>
-				<div class="col-lg-4">
-	    			<div class="thumbnail">
-						<a class="project" href="https://github.com/Gulkinator/idea-feast.git" target="_blank">
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634172/da2f797e-27b3-11e5-856c-5b16e2c0f462.png" alt="ideaFeast screen capture">
-							<h3>ideaFeast</h3>
-						</a>
-					</div>
-				</div>
-	        	<div class="col-lg-4">
-		        	<div class="thumbnail">
-						<a class="project" href="https://github.com/Gulkinator/making-groceries.git" target="_blank"> 
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634174/da3709be-27b3-11e5-814f-f31c09f90733.png" alt="Making Groceries screen capture">
-							<h3>Making Groceries</h3>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="thumbnail">
-						<a class="project" href="https://github.com/Gulkinator/invox.git" target="_blank"> 
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8640647/2ebf1bc2-28c5-11e5-942e-c788c3a5261d.png" alt="Invox screen capture">
-							<h3>Invox</h3>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<h2 class="about-title">Enterprise Products</h2>
-				<div class="col-lg-4">
-					<div class="thumbnail">
-						<a class="project" href="https://github.com/Gulkinator/branding-tool.git" target="_blank"> 
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634177/da3b27b0-27b3-11e5-8ea9-ae21c34d4e3d.png" alt="Branding Tool screen capture">
-							<h3>Branding Tool</h3>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="thumbnail">
-						<a class="project" href="img/requests-portal.png" target="_blank"> 
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634175/da38335c-27b3-11e5-99d3-fd09c3949327.png" alt="Requests Portal screen capture">
-							<h3>Requests Portal</h3>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="thumbnail">
-						<a class="project" href="https://cloud.githubusercontent.com/assets/10729186/8634173/da322840-27b3-11e5-8481-835c8a32bb2e.jpg" target="_blank"> 
-							<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8640647/2ebf1bc2-28c5-11e5-942e-c788c3a5261d.png" alt="Policy Portal screen capture">
-							<h3>Policy Portal</h3>
-						</a>
-					</div>
-				</div>
-			</div>
-			<hr class="featurette-divider">
-		</div>
-		<div class="featurette">
-			<div class="container">
-				<div class="row">
-					<div id="about" class="col-md-7">
-						<div class="featurette-heading"><h1>About</h1></div>
-						<p class="lead">Lauren Gulkus lives and works in New Orleans, where she has been learning fullstack, web development over the past few years. This site highlights some projects she has done during that time.</p>
-		    		</div>
-					<div class="col-md-5">
-						<br>
-						<br>
-						<p class="lead"><a class="resume-link"  href="img/resume-gulkus.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;View the resume of Lauren Gulkus</a><br><a class="resume-link" href="https://github.com/gulkinator/gulkinator.github.io"><i class="fa fa-file-code-o"></i>&nbsp;View the source code for this site</a></p>
-					</div>
-				</div>
-				<hr class="featurette-divider">
-			</div>
-		</div>
-	</main>	
-	<footer>
-		<div class="container">
-			<div id="social-media" class="col-md-7">
-        		<h1>Around the web&nbsp;&nbsp;<a href="https://github.com/gulkinator" target="_blank"><i class="fa fa-github fa"></i></a><a href="https://www.linkedin.com/in/gulkus" target="_blank">&nbsp;<i class="fa fa-linkedin fa"></i></a><a href="https://twitter.com/Gulkinator" target="_blank">&nbsp;<i class="fa fa-twitter fa"></i></a></h1>
-        	</div>
-        	<div class="col-md-5">
-        		<p class="pull-right"><br><a href="#">Back to top</a></p>
-			</div>
-		</div>
-	</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
+				<a class="about-link"  href="img/resume-gulkus.pdf" target="_blank">View the resume of Lauren Gulkus</a>
+				<br>
+				<a class="about-link" href="https://github.com/gulkinator/gulkinator.github.io">View the source code for this site</a>
+			</p>
+		</section>
+	</div>
+</main>
+<!-- End of Main Content --> 
+
+<!-- Start of Footer -->
+<footer class="wrapper">
+	<div class="inner" id="about">
+		<h3 id="social-media">Around the web 
+			<span>
+				<a href="https://github.com/gulkinator" target="_blank"><i class="fa fa-github fa"></i><span class="sr-only">Github.com</span></a>
+				<a href="https://www.linkedin.com/in/gulkus" target="_blank">  <i class="fa fa-linkedin fa"></i><span class="sr-only">LinkedIn.com</span></a>
+				<a href="https://twitter.com/Gulkinator" target="_blank">  <i class="fa fa-twitter fa"></i></a><span class="sr-only">Twitter.com</span></span>
+		</h3>
+			<p class="pull-right"><a href="#">Back to top</a></p>
+	</div>
+	<div class="clear"></div>
+</footer>
+<!-- End of Footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Compiled plugins -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

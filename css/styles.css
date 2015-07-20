@@ -1,100 +1,243 @@
-/* 
-*TITLE: Portfolio Site for Lauren Gulkus Stylesheet
-*AUTHOR: Lauren Gulkus (Github: www.github.com/gulkinator, Twitter: @gulkinator)
-*COLORS USED: #FBBB29 (orange), #DFE8EE (light blue), #002F45 (dark blue)
-*/
-
-body{
-	background-color:#002f45;
-	color:#DFE8EE;
-}
-
-h1 {
-	font-size:25px
-}
-
-h2 {
-	font-size:20px
-}
-
-h3, caption{
-	font-size:15px
-}
-
-a {
-
-	background:transparent;
-	color:#DFE8EE;
-}
-
-a:hover {
-	color:#FBBB29;
-	background:transparent;
-	text-decoration:none;
-}
-
-li {
-	list-style: none;
-}
-
-nav {
-	border-radius: 0px;
-}
-
-main {
-	background-color: #FFF;
-	color: #002F45;
-}
-
-.project {
-	color: #002F45;
-}
-
-.featurette {
-	background-color: #002F45;
-	color:#DFE8EE;
-}
+/* ==========================================================================
+   TITLE: 
+   Portfolio Site for Lauren Gulkus Stylesheet
+   
+   AUTHOR: 
+   Lauren Gulkus (Github: www.github.com/gulkinator, Twitter: @gulkinator)
+   
+   COLORS USED: 
+   #FBBB29 (orange)
+   #DFE8EE (light blue)
+   #002F45 (dark blue)
+   ========================================================================== */
 
 
-.fa-bars {
-    color:#FBBB29;
-}
+/* ==========================================================================
+   Universal Styles
+   ========================================================================== */
+    * {
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        color: #333;
+    }
 
-.hidden {
-	visibility:hidden;
-}
+    body {
+        background: white;
+        margin: 0;
+        padding: 0;
+    }
 
-.nav > li > a:hover {
-	background:transparent;
-}
 
-.portfolio-title{
-	text-align:center;
-	background-color:#FBBB29;
-	color:#002f45;
-	border-radius:10rem;
-	margin-top:-1.5rem;
-	margin-bottom:2.5rem;
-	margin-right:auto;
-	margin-left:auto;
-}
 
-a.resume-link {
-	color:#FBBB29;
-}
+/* ==========================================================================
+   Universal Wrapper Styles
+   ========================================================================== */
+    .wrapper {
+        width: 100%;
+    }
+    .inner {
+        width: 90%;
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 16px;
+    }
 
-a.resume-link:hover {
-	color:#002f45;	
-}
 
-.thumbnail {
-	background-color:#DFE8EE;
-	border-color: transparent;
-	border-radius: 0px;
-	box-shadow:none;
-}
 
-img.portfolio-img:hover {
-	background-color:transparent;
-	opacity:0.6;
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+
+/* Headings */
+    h1, h2, p {
+        margin: 16px 0 16px 0;
+        padding: 0;
+        color:#002F45;
+    }
+
+    h1 {
+        font-size: 64px;
+        color: #333;
+        padding: 25vh 0;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    
+    /* MOBILE SYTLES */
+    @media only screen and (max-width : 700px) {
+        h1 { font-size: 32px; padding: 10vh 0; }
+    }
+
+    h2 {
+        margin: 48px 0 16px 0;
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+/* Links */
+    a {
+        text-decoration: none;
+        color: #FBBB29;
+    }
+    
+    main a:hover { color: #002F45; }
+    a:hover { color: #FBBB29;}
+
+/* Listing Styles */
+    ul {
+        margin: 16px 0 16px;
+        padding: 0 0 0 48px
+        
+    }
+    ul:after {
+        clear: both;
+        display: table;
+        content: '';
+    }
+    
+    li {
+        width: 33%;
+        float: left;
+    }
+    
+    /* MOBILE SYTLES */
+    @media only screen and (max-width : 700px) {
+        li {
+            width: 100%;
+            float: none;
+        }
+    }
+    
+/* Helper Classes */
+
+    .clear { clear: both; }
+
+    .pull-left { margin-right: 40px;  }
+
+
+/* ==========================================================================
+   Nav Styles
+   ========================================================================== */
+    .navbar {
+        background: #002f45;
+        color: #def4ff;
+        border-radius: 0px;
+        margin-bottom:0px;
+    }
+    
+    nav .fa   {
+        color:#def4ff;
+    }
+    
+    .navbar-brand {
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: .05em;
+        color: #def4ff;
+        display: block;
+    }
+    
+    nav a  {
+        color:#def4ff;
+    }
+    .nav > li > a:hover, .nav > li > a:focus   {
+        color:#FBBB29;
+        background:transparent;
+    }
+    
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+    header {
+        color: #002F45;
+        text-align: center;
+        background: #DFE8EE url(https://cloud.githubusercontent.com/assets/10729186/8754217/8263e4f4-2c87-11e5-8aec-8cdda643a3b1.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+/* ==========================================================================
+   Main / Resume Styles
+   ========================================================================== */
+    main {
+        margin-bottom: 32px;
+    }
+    
+    main i   {
+        color:#FBBB29;
+    }
+
+    .thumbnail {
+    	background-color:#DFE8EE;
+    	border-color: transparent;
+    	border-radius: 0px;
+    	box-shadow:none;
+    }
+    
+    .caption   {
+        color:#002F45;
+    }
+    
+    .portfolio-img:hover {
+    	background-color:transparent;
+    	opacity:0.6;
+    }
+    
+    .about-link   {
+        color:#002f45;
+    }
+    
+    .about-link:hover   {
+        color:#FBBB29;
+        text-decoration:none;
+    }
+
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+    footer {
+        background: #002f45;
+        color: #def4ff;
+    }
+    
+    footer h3 {
+        float: left;
+        margin: 28px 0;
+        display: inline;
+        color:#def4ff;
+    }
+    
+    footer p {
+        float: left;
+        margin: 28px 0;
+        display: inline;
+        color:#def4ff;
+    }
+    
+    footer a   {
+        color:#def4ff;
+    }
+    
+    footer i {
+        color:#def4ff;
+    }
+    
+    footer i:hover{
+        color:#FBBB29;
+    }
+    
+    /* MOBILE SYTLES */
+    @media only screen and (max-width : 700px) {
+        footer { text-align: center; }
+        footer img { float: none; margin: 16px 0; }
+        footer p {  float: none; margin: 16px 0; display: block;}
+    }
 }
