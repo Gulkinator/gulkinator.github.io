@@ -78,14 +78,17 @@
     p {
         font-size: 16px;
     }
-
+    
 /* Links */
     a {
         text-decoration: none;
         color: #FBBB29;
     }
     
-    main a:hover { color: #002F45; }
+    main a:hover { 
+        color: #002F45;
+    }
+    
     a:hover { color: #FBBB29;}
 
 /* Listing Styles */
@@ -103,6 +106,10 @@
     li {
         width: 33%;
         float: left;
+    }
+    
+    footer li {
+        list-style:none;
     }
     
     /* MOBILE SYTLES */
@@ -174,6 +181,11 @@
     main i   {
         color:#FBBB29;
     }
+    
+    main i:hover   {
+        color:#002f45;
+        text-decoration:none;
+    }
 
     .thumbnail {
     	background-color:#DFE8EE;
@@ -192,11 +204,12 @@
     }
     
     .about-link   {
-        color:#002f45;
+        color:#FBBB29;
+        font-variant:small-caps;
     }
     
     .about-link:hover   {
-        color:#FBBB29;
+        color:#002f45;
         text-decoration:none;
     }
 
@@ -206,6 +219,10 @@
     footer {
         background: #002f45;
         color: #def4ff;
+    }
+    
+    footer li  {
+        display:inline-block;
     }
     
     footer h3 {
