@@ -87,6 +87,8 @@
     
     main a:hover { 
         color: #002F45;
+        text-decoration: none;
+        
     }
     
     a:hover { color: #FBBB29;}
@@ -219,10 +221,6 @@
     footer {
         background: #002f45;
         color: #def4ff;
-    }
-    
-    footer li  {
-        display:inline-block;
     }
     
     footer h3 {
