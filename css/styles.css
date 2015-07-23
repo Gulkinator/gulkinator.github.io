@@ -179,15 +179,6 @@
     main {
         margin-bottom: 32px;
     }
-    
-    main i   {
-        color:#FBBB29;
-    }
-    
-    main i:hover   {
-        color:#002f45;
-        text-decoration:none;
-    }
 
     .thumbnail {
     	background-color:#DFE8EE;
@@ -205,9 +196,16 @@
     	opacity:0.6;
     }
     
+    .coming-soon {
+        max-width:490px;
+        width:66%;
+        max-height:315px;
+    }
+    
     .about-link   {
         color:#FBBB29;
         font-variant:small-caps;
+        font-weight: bold;
     }
     
     .about-link:hover   {
