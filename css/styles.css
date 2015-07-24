@@ -50,6 +50,7 @@
    ========================================================================== */
 
 /* Headings */
+
     h1, h2, p {
         margin: 16px 0 16px 0;
         padding: 0;
@@ -185,6 +186,7 @@
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
+    	padding-bottom:1em;
     }
     
     .caption   {
