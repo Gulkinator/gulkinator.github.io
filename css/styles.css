@@ -175,7 +175,7 @@
     }
     
 /* ==========================================================================
-   Main / Resume Styles
+   Main Styles
    ========================================================================== */
     main {
         margin-bottom: 32px;
@@ -186,7 +186,7 @@
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
-    	padding-bottom:1em;
+    	padding:1em;
     }
     
     .caption   {
@@ -246,7 +246,7 @@
         color:#def4ff;
     }
     
-    footer i:hover{
+    footer i:hover  {
         color:#FBBB29;
     }
     
