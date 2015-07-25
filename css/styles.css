@@ -189,13 +189,12 @@
     	padding:1em;
     }
     
+   .thumbnail:hover {
+    	box-shadow: 0 12px 36px rgba(100, 100, 100, 0.7);
+    }
+     
     .caption   {
         color:#002F45;
-    }
-    
-    .portfolio-img:hover {
-    	background-color:transparent;
-    	opacity:0.6;
     }
     
     .coming-soon {
