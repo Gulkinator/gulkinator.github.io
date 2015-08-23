@@ -167,11 +167,7 @@
     header {
         color: #002F45;
         text-align: center;
-        background: #002f45 url("img/small_steps.png") repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center fixed;
     }
     
 /* ==========================================================================
@@ -182,7 +178,7 @@
     }
 
     .thumbnail {
-    	background-color:#DFE8EE;
+    	background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center;
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
