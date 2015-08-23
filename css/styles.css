@@ -167,7 +167,7 @@
     header {
         color: #002F45;
         text-align: center;
-        background: #002f45 url(https://cloud.githubusercontent.com/assets/10729186/8886338/0f6666f0-322e-11e5-831e-a1daa288bb21.png) repeat center center fixed; 
+        background: #002f45 url("img/small_steps.png") repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
