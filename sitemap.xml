@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+	  <loc>http://gulkus.com/</loc>
+	  <lastmod>2015-08-20T18:09:50+00:00</lastmod>
+	</url>
+	<url>
+	  <loc>http://gulkus.com/img/resume-gulkus.pdf?pdf=view</loc>
+	  <lastmod>2015-08-20T18:09:50+00:00</lastmod>
+	</url>
+	<image:image>
+		<image:loc>https://cloud.githubusercontent.com/assets/10729186/8767074/7a065096-2e15-11e5-9d32-05f05df25af3.jpg</image:loc>
+		<image:title>Lauren Gulkus</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>https://cloud.githubusercontent.com/assets/10729186/8634172/da2f797e-27b3-11e5-856c-5b16e2c0f462.png</image:loc>
+		<image:title>ideaFeast screen capture</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>https://cloud.githubusercontent.com/assets/10729186/8634174/da3709be-27b3-11e5-814f-f31c09f90733.png</image:loc>
+		<image:title>Making Groceries screen capture</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>https://cloud.githubusercontent.com/assets/10729186/8634177/da3b27b0-27b3-11e5-8ea9-ae21c34d4e3d.png</image:loc>
+		<image:title>Branding Tool screen capture</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>https://cloud.githubusercontent.com/assets/10729186/8634175/da38335c-27b3-11e5-99d3-fd09c3949327.png</image:loc>
+		<image:title>Requests Portal screen capture</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>img/icons/flask.svg</image:loc>
+		<image:title>laboratory flask</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>img/icons/flask.svg</image:loc>
+		<image:title>laboratory flask</image:title>
+	</image:image>
+</urlset>
