@@ -8,7 +8,7 @@
    COLORS USED: 
    #FBBB29 (orange)
    #DFE8EE (light blue)
-   #002F45 (dark blue)
+   #333 (dark blue)
    ========================================================================== */
 
 
@@ -54,7 +54,7 @@
     h1, h2, p {
         margin: 16px 0 16px 0;
         padding: 0;
-        color:#002F45;
+        color:#333;
     }
 
     h1 {
@@ -87,7 +87,7 @@
     }
     
     main a:hover { 
-        color: #002F45;
+        color: #333;
         text-decoration: none;
         
     }
@@ -134,7 +134,7 @@
    Nav Styles
    ========================================================================== */
     .navbar {
-        background: #002f45;
+        background: #333;
         color: #def4ff;
         border-radius: 0px;
         margin-bottom:0px;
@@ -165,14 +165,13 @@
    Header Styles
    ========================================================================== */
     header {
-        color: #002F45;
+        color: #333;
+		padding-top:5px;
         text-align: center;
-        background: #DFE8EE url(https://cloud.githubusercontent.com/assets/10729186/8886338/0f6666f0-322e-11e5-831e-a1daa288bb21.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        -ms-ie-background-size: cover;
-        background-size: cover;
+        background: #DFE8EE url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center fixed; 
+		background-size: inherit;
+        
+>>>>>>> master
     }
     
 /* ==========================================================================
@@ -183,7 +182,7 @@
     }
 
     .thumbnail {
-    	background-color:#DFE8EE;
+    	background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center;
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
@@ -195,7 +194,7 @@
     }
      
     .caption   {
-        color:#002F45;
+        color:#333;
     }
     
     .coming-soon {
@@ -212,7 +211,7 @@
     }
     
     .about-link:hover   {
-        color:#002f45;
+        color:#333;
         text-decoration:none;
     }
 
@@ -220,7 +219,7 @@
    Footer Styles
    ========================================================================== */
     footer {
-        background: #002f45;
+        background: #333;
         color: #def4ff;
     }
     
