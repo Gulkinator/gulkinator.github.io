@@ -167,7 +167,12 @@
     header {
         color: #002F45;
         text-align: center;
-        background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center fixed;
+        background: #DFE8EE url(https://cloud.githubusercontent.com/assets/10729186/8886338/0f6666f0-322e-11e5-831e-a1daa288bb21.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-ie-background-size: cover;
+        background-size: cover;
     }
     
 /* ==========================================================================
@@ -178,20 +183,19 @@
     }
 
     .thumbnail {
-    	background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center;
+    	background-color:#DFE8EE;
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
     	padding:1em;
     }
     
+   .thumbnail:hover {
+    	box-shadow: 0 12px 36px rgba(100, 100, 100, 0.7);
+    }
+     
     .caption   {
         color:#002F45;
-    }
-    
-    .portfolio-img:hover {
-    	background-color:transparent;
-    	opacity:0.6;
     }
     
     .coming-soon {
@@ -252,4 +256,3 @@
         footer img { float: none; margin: 16px 0; }
         footer p {  float: none; margin: 16px 0; display: block;}
     }
-}

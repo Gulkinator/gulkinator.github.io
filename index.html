@@ -25,10 +25,6 @@ To-Do:
 <meta content="Lauren Gulkus" name="author"/>
 <meta content="The web development projects portfolio of Lauren Gulkus" name="description" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Start Scripts -->
-<script src="js/modernizr-2.6.2.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- End Scripts -->
 <!-- Start Styles -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -40,24 +36,26 @@ To-Do:
 <!-- End Fonts -->
 </head>
 <body>
-		<nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"><i class="fa fa-bars fa-2x"></i></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Lauren Gulkus</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-				<li><a class="hidden" href="#projects">Projects</a></li>
-				<li><a class="hidden" href="#consumer-products-projects">Consumer Product Projects <span class="sr-only">Consumer Product Projects</span></a></li>
-				<li><a class="hidden" href="#enterprise-products-projects">Enterprise Product Projects <span class="sr-only">Enterprise Product Projects</span></a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="https://gulkus.wufoo.com/forms/zohxfh017810c5/" target="_blank">Contact</a></li>
-				<li><a class="hidden" href="#social-media">Social Media<span class="sr-only">Social Media Links</span></a></li>
-			</ul>
+		<li><a class="hidden" href="#projects">Projects</a></li>
+		<li><a class="hidden" href="#consumer-products-projects">Consumer Product Projects <span class="sr-only">Consumer Product Projects</span></a></li>
+		<li><a class="hidden" href="#enterprise-products-projects">Enterprise Product Projects <span class="sr-only">Enterprise Product Projects</span></a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="https://gulkus.wufoo.com/forms/zohxfh017810c5/" target="_blank">Contact</a></li>
+		<li><a class="hidden" href="#social-media">Social Media<span class="sr-only">Social Media Links</span></a></li>
+	  </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -78,7 +76,7 @@ To-Do:
     			<div class="thumbnail">
 					<a class="project" href="https://github.com/Gulkinator/idea-feast.git" target="_blank">
 						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634172/da2f797e-27b3-11e5-856c-5b16e2c0f462.png" alt="ideaFeast screen capture">
-						<h3 class="caption">Idea-Feast</h3><p class="description">A simple CRUD application that displays a list of Ideas. Users can add ideas to the list as "like" exisitng ideas. Ideas are sorted on the page from most to least likes.  </p><kbd>Sinatra</kbd>  <kbd> Heroku</kbd>  <kbd> PostgreSQL</kbd>  <kbd> Bootstrap</kbd>
+						<h3 class="caption">Idea-Feast</h3><p class="description">A Simple CRUD application that allows users to submit and "like" ideas. Ideas are then displayed on the home page sorted by number of likes received.  </p><kbd>Sinatra</kbd>  <kbd> Heroku</kbd>  <kbd> PostgreSQL</kbd>  <kbd> Bootstrap</kbd>
 					</a>
 				</div>
 			</div>
@@ -104,7 +102,7 @@ To-Do:
 			</div>
 			<div class="col-md-6 col-lg-6">
 				<div class="thumbnail">
-					<a class="project" href="img/requests-portal.png" target="_blank"> 
+					<a class="project" href="https://cloud.githubusercontent.com/assets/10729186/8634175/da38335c-27b3-11e5-99d3-fd09c3949327.png" target="_blank"> 
 						<img class="img-responsive portfolio-img"  src="https://cloud.githubusercontent.com/assets/10729186/8634175/da38335c-27b3-11e5-99d3-fd09c3949327.png" alt="Requests Portal screen capture">
 						<h3 class="caption">Requests Portal</h3><p class="description">An enterprise ticketing tools that allows customers to request services and for company team members to update project status.</p><kbd>SharePoint 2013</kbd>  <kbd> Nintex Workflow 2010</kbd>
 					</a>
@@ -136,9 +134,9 @@ To-Do:
 			<p class="lead">
 				Lauren Gulkus lives and works in New Orleans, where she has been learning fullstack, web development over the past few years. This site highlights some projects she has done during that time.
 				<br>
-				<a class="about-link" href="img/resume-gulkus.pdf" target="_blank">View the resume of Lauren Gulkus</a>
+				<a class="about-link" href="img/resume-gulkus.pdf?pdf=view" target="_blank">View the resume of Lauren Gulkus</a>
 				<br>
-				<a class="about-link" href="https://github.com/gulkinator/gulkinator.github.io">View the source code for this site</a>
+				<a class="about-link" href="https://github.com/gulkinator/gulkinator.github.io" target="_blank">View the source code for this site</a>
 			</p>
 		</section>
 	</div>
@@ -159,10 +157,19 @@ To-Do:
 	<div class="clear"></div>
 </footer>
 <!-- End of Footer -->
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Compiled plugins -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Google Analytics -->    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-65858121-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 </body>
 </html>
