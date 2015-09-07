@@ -8,7 +8,7 @@
    COLORS USED: 
    #FBBB29 (orange)
    #DFE8EE (light blue)
-   #333 (dark blue)
+   #002F45 (dark blue)
    ========================================================================== */
 
 
@@ -23,7 +23,7 @@
     }
 
     body {
-        background: white;
+        background-color: #fff;
         margin: 0;
         padding: 0;
     }
@@ -62,7 +62,7 @@
         color: #333;
         padding: 25vh 0;
         text-transform: uppercase;
-        font-weight: 100;
+        font-weight: 700;
     }
     
     /* MOBILE SYTLES */
@@ -87,12 +87,15 @@
     }
     
     main a:hover { 
-        color: #333;
+        color: #002F45;
         text-decoration: none;
-        
+    
     }
     
-    a:hover { color: #FBBB29;}
+    a:hover { 
+	color: #FBBB29;
+	
+	}
 
 /* Listing Styles */
     ul {
@@ -134,7 +137,7 @@
    Nav Styles
    ========================================================================== */
     .navbar {
-        background: #333;
+        background: #002f45;
         color: #def4ff;
         border-radius: 0px;
         margin-bottom:0px;
@@ -165,10 +168,10 @@
    Header Styles
    ========================================================================== */
     header {
-        color: #333;
+        color: #002F45;
 		padding-top:5px;
         text-align: center;
-        background: #DFE8EE url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center fixed; 
+        background: url(../img/bg.png) repeat center center fixed; 
 		background-size: inherit;
         
 >>>>>>> master
@@ -182,7 +185,7 @@
     }
 
     .thumbnail {
-    	background: url(http://subtlepatterns.com/patterns/fabric_of_squares_gray.png) repeat center center;
+    	background: url(../img/bg.png) repeat center center;
     	border-color: transparent;
     	border-radius: 0px;
     	box-shadow:none;
@@ -194,7 +197,7 @@
     }
      
     .caption   {
-        color:#333;
+        color:#002F45;
     }
     
     .coming-soon {
@@ -211,7 +214,7 @@
     }
     
     .about-link:hover   {
-        color:#333;
+        color:#002f45;
         text-decoration:none;
     }
 
@@ -219,7 +222,7 @@
    Footer Styles
    ========================================================================== */
     footer {
-        background: #333;
+        background: #002f45;
         color: #def4ff;
     }
     
